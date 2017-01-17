@@ -1,11 +1,11 @@
-/**
- * Copyright 2015 Scott Weeden-Moody
+/*
+ * Copyright 2017 Scott Weeden-Moody
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
+ * you may not use this project except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * http://www.apache.org/licenses/LICENSE-2.0
+ *     http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.lillicoder.demo.viewgroupmerge;
+package com.lillicoder.demo;
 
 import android.support.v7.app.AppCompatActivity;
 
-public class DemoActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
 }
