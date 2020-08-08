@@ -12,6 +12,10 @@ android {
 		versionName '0.1'
     }
 
+    repositories {
+        google()
+    }
+
     dependencies {
     	implementation "androidx.appcompat:appcompat:1.2.0"
     	implementation "androidx.appcompat:appcompat-resources:1.2.0"
