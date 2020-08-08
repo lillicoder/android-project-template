@@ -1,5 +1,5 @@
 /*
- * Copyright 2017 Scott Weeden-Moody
+ * Copyright 2020 Scott Weeden-Moody
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this project except in compliance with the License.
@@ -13,22 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package com.lillicoder.demo
 
-package com.lillicoder.demo;
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+class MainActivity : AppCompatActivity() {
 
-public class MainActivity extends AppCompatActivity {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
 
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        val toolbar: Toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
     }
+
 }
