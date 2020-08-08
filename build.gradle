@@ -1,12 +1,9 @@
 buildscript {
 	repositories {
+		google()
     	jcenter()
 	}
 	dependencies {
-    	classpath 'com.android.tools.build:gradle:2.2.3'
+    	classpath 'com.android.tools.build:gradle:4.0.0'
     }
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '3.3'
 }
