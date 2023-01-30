@@ -1,16 +1,6 @@
-buildscript {
-	repositories {
-		google()
-		mavenCentral()
-	}
-
-	ext.kotlin_version = '1.7.21'
-	dependencies {
-    	classpath 'com.android.tools.build:gradle:7.4.0'
-		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-	}
-}
-
 plugins {
-	id 'org.jlleitschuh.gradle.ktlint' version '11.1.0'
+	id 'com.android.application' version '7.4.0' apply false
+	id 'com.android.library' version '7.4.0' apply false
+	id 'org.jetbrains.kotlin.android' version '1.7.21' apply false
+	id 'org.jlleitschuh.gradle.ktlint' version '11.1.0' apply false
 }
