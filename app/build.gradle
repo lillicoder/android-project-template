@@ -1,5 +1,8 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'org.jlleitschuh.gradle.ktlint'
+}
 
 android {
     compileSdkVersion 33
@@ -35,4 +38,9 @@ android {
         // Kotlin
         implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     }
+}
+
+ktlint {
+    android = true
+    outputToConsole = true
 }
