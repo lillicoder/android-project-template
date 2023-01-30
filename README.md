@@ -1,4 +1,4 @@
-Android Project Template
+## Android Project Template
 ========================
 
 My personal Android project template. Has basic gradle configuration
@@ -7,10 +7,10 @@ for adding some AndroidX libraries as well as having gradle wrapper ready to go.
 The .gitignore has been modified to exclude IDE specific files and files that 
 should be generated locally (e.g. local.properties).
 
-License
+### License
 -------
 
-Copyright 2020 Scott Weeden-Moody
+Copyright 2022 Scott Weeden-Moody
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this project except in compliance with the License.
