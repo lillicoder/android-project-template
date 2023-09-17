@@ -7,4 +7,9 @@ plugins {
 
 subprojects {
 	apply(plugin = "org.jlleitschuh.gradle.ktlint") // Can't use alias here, use concrete name
+
+	configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
+		android.set(true)
+		outputToConsole.set(true)
+	}
 }

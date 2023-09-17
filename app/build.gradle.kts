@@ -40,8 +40,3 @@ dependencies {
     // Kotlin
     implementation(libs.kotlin.stdlib)
 }
-
-ktlint {
-    android.set(true)
-    outputToConsole.set(true)
-}
