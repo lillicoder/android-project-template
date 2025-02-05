@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.parcelize)
 }
 
 android {
@@ -10,7 +11,7 @@ android {
         applicationId = "com.lillicoder.demo"
 
         compileSdk = 34
-        minSdk = 21
+        minSdk = 26
         targetSdk = 34
 
         versionCode = 1
@@ -36,7 +37,23 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.appcompat.resources)
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.fragment.ktx)
+
+    // Navigation
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+
+    // ViewModel
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+
+    // RecyclerView
+    implementation(libs.androidx.recyclerview)
+
+    // Material Design
+    implementation(libs.android.material)
 
     // Kotlin
     implementation(libs.kotlin.stdlib)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.kotlinx.coroutines.core)
 }

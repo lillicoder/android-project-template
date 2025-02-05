@@ -1,7 +1,9 @@
 # Android Project Template
 
-My personal Android project template. Has basic gradle configuration
-for adding some AndroidX libraries as well as having gradle wrapper ready to go.
+My personal Android project template. Supports the following out of the box:
 
-The .gitignore has been modified to exclude IDE specific files and files that 
-should be generated locally (e.g. local.properties).
+* Kotlin
+* Kotlin Coroutines
+* Android Material Design
+* AndroidX compatibility libraries (e.g. activities, fragments)
+* AndroidX Navigation
