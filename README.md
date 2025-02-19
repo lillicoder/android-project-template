@@ -7,3 +7,4 @@ My personal Android project template. Supports the following out of the box:
 * Android Material Design
 * AndroidX compatibility libraries (e.g. activities, fragments)
 * AndroidX Navigation
+* Ktlint with its default ruleset
